@@ -1,0 +1,16 @@
+# مخفی کردن محیط مجازی پایتون
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# مخفی کردن پکیج‌های فرانت‌‌اند
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/build/
+
+# مخفی کردن فایل‌های حساس (مثل پسوردها و توکن‌ها)
+.env
+backend/.env
+frontend/.env.local
