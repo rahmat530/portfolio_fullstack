@@ -102,7 +102,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOWED_ORIGINS = os.environ.get(
     'CORS_ORIGIN_WHITELIST',
-    'https://rahmats-portfolio.netlify.app/'
+    'https://rahmats-portfolio.netlify.app'
 ).split(',')
 
 CORS_ALLOW_CREDENTIALS = True
