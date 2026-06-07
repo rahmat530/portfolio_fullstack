@@ -63,11 +63,15 @@ Open http://localhost:3000
 | POST | /api/auth/login/ | No | Get auth token |
 | POST | /api/auth/logout/ | Yes | Invalidate token |
 
-## Deployment
+## ## Deployment
 
-- **Backend → Render**: Set `Start Command` to `gunicorn wsgi:application`, use `build.sh`
-- **Frontend → Vercel**: Set `VITE_API_URL` to your Render backend URL
-
+- **Backend (Render)**: Set `Start Command` to `gunicorn wsgi:application`, and use `build.sh`.
+- **Frontend (Netlify)**: 
+  - **Base directory**: `frontend`
+  - **Build command**: `npm run build`
+  - **Publish directory**: `dist`
+  - **Environment Variables**: Set `VITE_API_URL` to your Render backend URL (e.g., `https://portfolio-backend-annb.onrender.com`).
+    
 ## GitHub
 
 https://github.com/rahmat530
