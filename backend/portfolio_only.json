@@ -1,0 +1,394 @@
+[
+{
+    "model": "portfolio_api.skill",
+    "pk": 1,
+    "fields": {
+        "name": "Python",
+        "category": "language",
+        "proficiency": 90,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 2,
+    "fields": {
+        "name": "JavaScript",
+        "category": "language",
+        "proficiency": 85,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 3,
+    "fields": {
+        "name": "TypeScript",
+        "category": "language",
+        "proficiency": 50,
+        "icon": "",
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 4,
+    "fields": {
+        "name": "HTML5",
+        "category": "language",
+        "proficiency": 90,
+        "icon": "",
+        "order": 4
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 5,
+    "fields": {
+        "name": "CSS3",
+        "category": "language",
+        "proficiency": 85,
+        "icon": "",
+        "order": 5
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 6,
+    "fields": {
+        "name": "Django",
+        "category": "framework",
+        "proficiency": 85,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 7,
+    "fields": {
+        "name": "Django REST Framework",
+        "category": "framework",
+        "proficiency": 85,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 8,
+    "fields": {
+        "name": "React.js",
+        "category": "framework",
+        "proficiency": 70,
+        "icon": "",
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 9,
+    "fields": {
+        "name": "Angular",
+        "category": "framework",
+        "proficiency": 40,
+        "icon": "",
+        "order": 4
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 10,
+    "fields": {
+        "name": "MySQL",
+        "category": "database",
+        "proficiency": 80,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 11,
+    "fields": {
+        "name": "SQLite",
+        "category": "database",
+        "proficiency": 80,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 12,
+    "fields": {
+        "name": "Git",
+        "category": "devops",
+        "proficiency": 85,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 13,
+    "fields": {
+        "name": "GitHub",
+        "category": "devops",
+        "proficiency": 85,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 14,
+    "fields": {
+        "name": "Linux (Ubuntu)",
+        "category": "devops",
+        "proficiency": 65,
+        "icon": "",
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 15,
+    "fields": {
+        "name": "VS Code",
+        "category": "devops",
+        "proficiency": 90,
+        "icon": "",
+        "order": 4
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 16,
+    "fields": {
+        "name": "Persisch",
+        "category": "language_spoken",
+        "proficiency": 100,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 17,
+    "fields": {
+        "name": "Deutsch (B2)",
+        "category": "language_spoken",
+        "proficiency": 70,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 18,
+    "fields": {
+        "name": "Englisch (B2)",
+        "category": "language_spoken",
+        "proficiency": 70,
+        "icon": "",
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 19,
+    "fields": {
+        "name": "TCP/IP",
+        "category": "network",
+        "proficiency": 61,
+        "icon": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.skill",
+    "pk": 20,
+    "fields": {
+        "name": "Agil Project Management",
+        "category": "pr_management",
+        "proficiency": 80,
+        "icon": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.project",
+    "pk": 1,
+    "fields": {
+        "title": "Fullstack Todo App",
+        "description": "A complete fullstack Todo application with Django REST Framework backend and React frontend. Features token-based authentication, full CRUD operations, and deployment to Render (backend) and Vercel (frontend).",
+        "tech_stack": "Django, Django REST Framework, React.js, Python, JavaScript, SQLite",
+        "github_url": "https://github.com/rahmat530",
+        "live_url": "https://todoapp-fullstack-73y4.vercel.app/",
+        "image": "projects/todo_app_aRNJ7rQ.png",
+        "status": "wip",
+        "featured": true,
+        "order": 3,
+        "created_at": "2026-04-19T12:04:42.940Z"
+    }
+},
+{
+    "model": "portfolio_api.project",
+    "pk": 2,
+    "fields": {
+        "title": "Portfolio Website",
+        "description": "A modern, full-stack developer portfolio built with React.js and Django. Features a responsive sidebar navigation, admin panel for content management, and dynamic CRUD for all sections.",
+        "tech_stack": "React.js, Django, Django REST Framework, Python, CSS3",
+        "github_url": "https://github.com/rahmat530",
+        "live_url": "https://rahmat-protfolio3030.netlify.app/",
+        "image": "",
+        "status": "wip",
+        "featured": true,
+        "order": 2,
+        "created_at": "2026-04-19T12:04:42.945Z"
+    }
+},
+{
+    "model": "portfolio_api.education",
+    "pk": 1,
+    "fields": {
+        "institution": "IBB Institut für Berufliche Bildung AG",
+        "degree": "Umschulung: Fachinformatiker Anwendungsentwicklung",
+        "field": "Softwareentwicklung, Datenbanken, Webentwicklung",
+        "location": "Oldenburg, DE",
+        "start_date": "09.2025",
+        "end_date": "Present",
+        "description": "",
+        "is_current": true,
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.education",
+    "pk": 4,
+    "fields": {
+        "institution": "Kabul Polytechnik Universität",
+        "degree": "Bachelor of Science (B.Sc.)",
+        "field": "Geologisches Ingenieurwesen und Bergbauerkundung",
+        "location": "Kabul, Afghanistan",
+        "start_date": "04.2016",
+        "end_date": "10.2020",
+        "description": "",
+        "is_current": false,
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.education",
+    "pk": 5,
+    "fields": {
+        "institution": "Mahajerin High School",
+        "degree": "High School Deploma",
+        "field": "",
+        "location": "Ghazni, Afghanistan",
+        "start_date": "04.2003",
+        "end_date": "12.2015",
+        "description": "12 years of general education following the educational system of the Afghanistan Ministry of Education.\r\nSuccessfully completed with very high grades (97.97%)",
+        "is_current": false,
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 1,
+    "fields": {
+        "name": "Deutsch B2 Zertifikat",
+        "issuer": "Volkshochschule Oldenburg",
+        "date_obtained": "03.2025",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "",
+        "description": "Deutschkurs für den Beruf – B2 Level",
+        "order": 4
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 2,
+    "fields": {
+        "name": "Geophysical Exploration - Field Training",
+        "issuer": "Geological Survey of Finland",
+        "date_obtained": "09.2019",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "",
+        "description": "",
+        "order": 5
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 3,
+    "fields": {
+        "name": "Claude Code in Action by Anthropic",
+        "issuer": "LinkedIn Learning Platform",
+        "date_obtained": "05.2026",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "https://www.linkedin.com/learning/certificates/25d91b0cb3100444f520dde87659afb0dff04ab175fc0548980992e2ac53f28e?trk=share_certificate",
+        "description": "",
+        "order": 1
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 4,
+    "fields": {
+        "name": "English for Academic Purposes (TOEFL Prep)",
+        "issuer": "The TOEFL House, Kabul",
+        "date_obtained": "10.2018",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "",
+        "description": "",
+        "order": 6
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 5,
+    "fields": {
+        "name": "React Essential Training",
+        "issuer": "LinkedIn Learning Platform",
+        "date_obtained": "05.2026",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "https://www.linkedin.com/learning/certificates/cdcf5c3ca3c3336c6e87fdf4ef4ecfc44d46bf5a8880dc50f52ee4898f44a4de?trk=share_certificate",
+        "description": "",
+        "order": 2
+    }
+},
+{
+    "model": "portfolio_api.certification",
+    "pk": 6,
+    "fields": {
+        "name": "JavaScript Essential Training",
+        "issuer": "LinkedIn Learning Platform",
+        "date_obtained": "05.2026",
+        "expiry_date": "",
+        "credential_id": "",
+        "credential_url": "https://www.linkedin.com/posts/rahmat-wahdat-4b41643a5_javascript-share-7459948906844569600-4DEj?utm_source=share&utm_medium=member_ios&rcm=ACoAAGMoH8gBXm9oUXw_tVhau4URQxnGmgXFXtc",
+        "description": "",
+        "order": 3
+    }
+},
+{
+    "model": "portfolio_api.resume",
+    "pk": 4,
+    "fields": {
+        "version": "latest",
+        "file": "resume/CV-Rahmatullah-Wahdat_zN0S9lt.pdf",
+        "uploaded_at": "2026-06-07T10:29:16.154Z",
+        "is_active": true,
+        "notes": ""
+    }
+}
+]
